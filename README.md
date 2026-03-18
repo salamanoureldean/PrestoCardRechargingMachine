@@ -5,7 +5,7 @@ REPO: https://github.com/salamanoureldean/PrestoCardRechargingMachine
 
 FILES ORGANIZATION
 
-README.txt      [This file] 
+README.md      [This file] 
 PrestoCardRechargeMachine.doc 
 makefile        [Compilation instructions for tests and top model] 
 
