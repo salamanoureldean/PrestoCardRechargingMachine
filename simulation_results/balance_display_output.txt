@@ -1,0 +1,15 @@
+time;model_id;model_name;port_name;data
+[33m0;1;balance_display;;passive, balance: 0[0m
+[33m0;2;input_reader;;10[0m
+[33m10;1;balance_display;;busy, balance: 35[0m
+[32m10;2;input_reader;out;35[0m
+[33m10;2;input_reader;;2[0m
+[32m10;1;balance_display;balance_out;35[0m
+[33m10;1;balance_display;;passive, balance: 35[0m
+[33m12;1;balance_display;;busy, balance: 25[0m
+[32m12;2;input_reader;out;25[0m
+[33m12;2;input_reader;;inf[0m
+[32m12;1;balance_display;balance_out;25[0m
+[33m12;1;balance_display;;passive, balance: 25[0m
+[33m12;1;balance_display;;passive, balance: 25[0m
+[33m12;2;input_reader;;inf[0m

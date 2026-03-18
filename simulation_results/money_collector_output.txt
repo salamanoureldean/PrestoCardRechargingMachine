@@ -1,0 +1,18 @@
+time;model_id;model_name;port_name;data
+[33m0;1;money_collector;;passive, amount: 0[0m
+[33m0;2;input_reader;;5[0m
+[33m5;1;money_collector;;busy, amount: 10[0m
+[32m5;2;input_reader;out;10[0m
+[33m5;2;input_reader;;0.5[0m
+[33m5.5;1;money_collector;;busy, amount: 10[0m
+[32m5.5;2;input_reader;out;7[0m
+[33m5.5;2;input_reader;;14.5[0m
+[32m6;1;money_collector;money_out;10[0m
+[33m6;1;money_collector;;passive, amount: 10[0m
+[33m20;1;money_collector;;busy, amount: 25[0m
+[32m20;2;input_reader;out;25[0m
+[33m20;2;input_reader;;inf[0m
+[32m21;1;money_collector;money_out;25[0m
+[33m21;1;money_collector;;passive, amount: 25[0m
+[33m21;1;money_collector;;passive, amount: 25[0m
+[33m21;2;input_reader;;inf[0m

@@ -1,0 +1,24 @@
+time;model_id;model_name;port_name;data
+[33m0;1;central_controller;;passive, bal: 0, card: 0, send_receipt: 0[0m
+[33m0;2;msg_reader;;1[0m
+[33m1;1;central_controller;;busy, bal: 0, card: 222, send_receipt: 0[0m
+[32m1;2;msg_reader;out;222[0m
+[33m1;2;msg_reader;;2[0m
+[32m2;1;central_controller;control_balance_out;0[0m
+[32m2;1;central_controller;queue_out;1[0m
+[33m2;1;central_controller;;passive, bal: 0, card: 222, send_receipt: 0[0m
+[33m3;1;central_controller;;busy, bal: 10, card: 222, send_receipt: 0[0m
+[32m3;2;msg_reader;out;10[0m
+[33m3;2;msg_reader;;2[0m
+[32m4;1;central_controller;control_balance_out;10[0m
+[32m4;1;central_controller;queue_out;1[0m
+[33m4;1;central_controller;;passive, bal: 10, card: 222, send_receipt: 0[0m
+[33m5;1;central_controller;;busy, bal: 10, card: 222, send_receipt: 1[0m
+[32m5;2;msg_reader;out;-1[0m
+[33m5;2;msg_reader;;inf[0m
+[32m6;1;central_controller;control_balance_out;10[0m
+[32m6;1;central_controller;control_receipt_out;222[0m
+[32m6;1;central_controller;queue_out;1[0m
+[33m6;1;central_controller;;passive, bal: 10, card: 222, send_receipt: 0[0m
+[33m6;1;central_controller;;passive, bal: 10, card: 222, send_receipt: 0[0m
+[33m6;2;msg_reader;;inf[0m

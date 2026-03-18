@@ -1,0 +1,15 @@
+time;model_id;model_name;port_name;data
+[33m0;1;receipt_processor;;passive, card_no: 0[0m
+[33m0;2;input_reader;;3[0m
+[33m3;1;receipt_processor;;requesting, card_no: 0[0m
+[32m3;2;input_reader;out;1[0m
+[33m3;2;input_reader;;2[0m
+[32m3;1;receipt_processor;request_out;-1[0m
+[33m3;1;receipt_processor;;passive, card_no: 0[0m
+[33m5;1;receipt_processor;;requesting, card_no: 0[0m
+[32m5;2;input_reader;out;123[0m
+[33m5;2;input_reader;;inf[0m
+[32m5;1;receipt_processor;request_out;-1[0m
+[33m5;1;receipt_processor;;passive, card_no: 0[0m
+[33m5;1;receipt_processor;;passive, card_no: 0[0m
+[33m5;2;input_reader;;inf[0m

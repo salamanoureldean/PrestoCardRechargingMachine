@@ -1,0 +1,21 @@
+time;model_id;model_name;port_name;data
+[33m0;1;message_queue;;passive, queue_size: 0[0m
+[33m0;2;card_reader;;1[0m
+[33m0;3;done_reader;;5[0m
+[33m0;4;money_reader;;1[0m
+[33m1;1;message_queue;;active, queue_size: 2[0m
+[32m1;2;card_reader;out;222[0m
+[33m1;2;card_reader;;inf[0m
+[32m1;4;money_reader;out;10[0m
+[33m1;4;money_reader;;inf[0m
+[32m1;1;message_queue;message_out;10[0m
+[33m1;1;message_queue;;active, queue_size: 2[0m
+[33m5;1;message_queue;;active, queue_size: 1[0m
+[32m5;3;done_reader;out;1[0m
+[33m5;3;done_reader;;inf[0m
+[32m5;1;message_queue;message_out;222[0m
+[33m5;1;message_queue;;active, queue_size: 1[0m
+[33m5;1;message_queue;;active, queue_size: 1[0m
+[33m5;2;card_reader;;inf[0m
+[33m5;3;done_reader;;inf[0m
+[33m5;4;money_reader;;inf[0m

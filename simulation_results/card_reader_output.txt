@@ -1,0 +1,13 @@
+time;model_id;model_name;port_name;data
+[33m0;1;card_reader;;passive, card_id: 0[0m
+[33m0;2;input_reader;;1[0m
+[33m1;1;card_reader;;busy, card_id: 983[0m
+[32m1;2;input_reader;out;1[0m
+[33m1;2;input_reader;;0[0m
+[33m1;1;card_reader;;busy, card_id: 983[0m
+[32m1;2;input_reader;out;1[0m
+[33m1;2;input_reader;;inf[0m
+[32m2;1;card_reader;cardinfo_out;983[0m
+[33m2;1;card_reader;;passive, card_id: 983[0m
+[33m2;1;card_reader;;passive, card_id: 983[0m
+[33m2;2;input_reader;;inf[0m
