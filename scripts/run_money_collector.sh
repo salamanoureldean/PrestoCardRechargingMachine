@@ -13,4 +13,4 @@ make
 ./bin/MONEY_COLLECTOR_TEST > simulation_results/money_collector_output.txt
 
 echo "Money Collector test complete."
-echo "Results in simulation_results/money_collector_output.txt"
+echo "CAT results in simulation_results/money_collector_output.txt"

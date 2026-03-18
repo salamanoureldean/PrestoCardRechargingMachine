@@ -13,4 +13,4 @@ make
 ./bin/MESSAGE_QUEUE_TEST > simulation_results/message_queue_output.txt
 
 echo "Message Queue test complete."
-echo "Results in simulation_results/message_queue_output.txt"
+echo "CAT results in simulation_results/message_queue_output.txt"

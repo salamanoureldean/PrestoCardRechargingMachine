@@ -13,4 +13,4 @@ make
 ./bin/CENTRAL_CONTROLLER_TEST > simulation_results/central_controller_output.txt
 
 echo "Central Controller test complete."
-echo "Results in simulation_results/central_controller_output.txt"
+echo "CAT results in simulation_results/central_controller_output.txt"

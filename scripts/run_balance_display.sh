@@ -13,4 +13,4 @@ make
 ./bin/BALANCE_DISPLAY_TEST > simulation_results/balance_display_output.txt
 
 echo "Balance Display test complete."
-echo "Results in simulation_results/balance_display_output.txt"
+echo "CAT results in simulation_results/balance_display_output.txt"
