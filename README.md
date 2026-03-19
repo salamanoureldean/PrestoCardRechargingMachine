@@ -97,5 +97,5 @@ cat simulation_results/presto_system_output.txt
 
 To execute the full system script:
 - ./run_presto_recharging_machine.sh
-The system will process card insertions, money deposits, and receipt requests in FIFO order.
-To check the execution result, cat simulation_results/presto_system_output.txt in your terminal
+- The system will process card insertions, money deposits, and receipt requests in FIFO order.
+- To check the execution result, cat simulation_results/presto_system_output.txt in your terminal
