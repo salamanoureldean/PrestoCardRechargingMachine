@@ -79,7 +79,7 @@ LINUX:
 - ./scripts/run_receipt_processor.sh
 - ./scripts/run_balance_display.sh 
 
-WINDOWS:
+POWERSHELL:
 - bash scripts/run_presto_recharging_machine.sh
 - bash scripts/run_money_collector.sh
 - bash scripts/run_card_reader.sh
@@ -89,13 +89,13 @@ WINDOWS:
 - bash scripts/run_balance_display.sh
 
 
-- These scripts will output save text log in 'simulation_results/'..
+ These scripts will output save text log in 'simulation_results/'..
 * The .txt files in simulation_results/ are generated using the Cadmium STDOUTLogger, which includes ANSI escape codes to highlight state changes in yellow and port events in green.
 * Because of these codes, the files will appear "unclean" (containing characters like [33m or [32m) if viewed in a standard text editor.
 * To view the logs properly with clean, colored formatting, you must use the cat command in the terminal:
 cat simulation_results/presto_system_output.txt
 
-- To execute the full system script:
+To execute the full system script:
 - ./run_presto_recharging_machine.sh
-- The system will process card insertions, money deposits, and receipt requests in FIFO order.
-- To check the execution result, cat simulation_results/presto_system_output.txt in your terminal
+The system will process card insertions, money deposits, and receipt requests in FIFO order.
+To check the execution result, cat simulation_results/presto_system_output.txt in your terminal
